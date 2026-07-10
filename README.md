@@ -1,16 +1,65 @@
-# React + Vite
+# NeuroTrack AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+NeuroTrack AI is an AI-powered student mental health screening web application designed to support early awareness of depression-related risk patterns among university students.
 
-Currently, two official plugins are available:
+The system provides a private, anonymous, and user-friendly self-assessment experience based on a structured questionnaire. It helps users understand possible mental health risk indicators and provides supportive resources.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Disclaimer: NeuroTrack is an academic project created for educational and research purposes only. It is not a medical diagnosis tool and should not replace consultation with qualified mental health professionals.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the Oxlint configuration
+Mental health challenges among university students are becoming increasingly common due to academic pressure, social stress, financial concerns, lifestyle changes, and future uncertainty.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+NeuroTrack aims to provide an accessible web-based screening platform that allows students to complete a self-assessment and receive a risk-level result with guidance and support resources.
+
+---
+
+## Key Features
+
+- Modern React-based web interface
+- Student-focused mental health self-assessment
+- 17-question psychometric-style assessment flow
+- Risk-level result generation
+- Supportive resource page
+- Clean landing page, about page, assessment page, and result section
+- Responsive UI built with React and Vite
+- Privacy-focused and academic-purpose design
+
+---
+
+## Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Machine Learning concept integration
+- Git & GitHub
+
+---
+
+## Project Pages
+
+- **Home Page:** Introduction to NeuroTrack and project purpose
+- **About Page:** Explains the motivation and background
+- **Assessment Page:** User answers structured mental health screening questions
+- **Result Page:** Displays risk-level result and supportive guidance
+- **Resources Page:** Provides mental health support information
+
+---
+
+## Project Structure
+
+```text
+neurotrack/
+  public/
+  src/
+  index.html
+  package.json
+  package-lock.json
+  vite.config.js
+  README.md
+  .gitignore
